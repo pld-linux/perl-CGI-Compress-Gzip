@@ -10,7 +10,8 @@ Summary(pl):	CGI::Compress::Gzip - CGI z automatycznie kompresowanym wyj¶ciem
 Name:		perl-CGI-Compress-Gzip
 Version:	0.17
 Release:	1
-License:	GPL or commercial
+License:	GPL v2 or commercial
+Vendor:		Clotho Advanced Media, Inc.
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	6bea0617aa8ea5e0040817fe0bcc28d5
