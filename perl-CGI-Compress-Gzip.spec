@@ -3,8 +3,8 @@
 %bcond_without	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	Compress-Gzip
+%define		pdir	CGI
+%define		pnam	Compress-Gzip
 Summary:	CGI::Compress::Gzip - CGI with automatically compressed output
 Summary(pl):	CGI::Compress::Gzip - CGI z automatycznie kompresowanym wyj¶ciem
 Name:		perl-CGI-Compress-Gzip
