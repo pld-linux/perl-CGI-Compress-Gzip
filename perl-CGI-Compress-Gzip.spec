@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	CGI
-%define pnam	Compress-Gzip
+%define	pnam	Compress-Gzip
 Summary:	CGI::Compress::Gzip - CGI with automatically compressed output
 Summary(pl):	CGI::Compress::Gzip - CGI z automatycznie kompresowanym wyj¶ciem
 Name:		perl-CGI-Compress-Gzip
