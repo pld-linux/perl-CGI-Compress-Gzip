@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Compress-Gzip
 Summary:	CGI::Compress::Gzip - CGI with automatically compressed output
-Summary(pl):	CGI::Compress::Gzip - CGI z automatycznie kompresowanym wyj∂ciem
+Summary(pl.UTF-8):   CGI::Compress::Gzip - CGI z automatycznie kompresowanym wyj≈õciem
 Name:		perl-CGI-Compress-Gzip
 Version:	0.21
 Release:	1
@@ -27,12 +27,12 @@ chooses HTML output, apply gzip compression on any content header for
 STDOUT. This module is intended to be a drop-in replacement for CGI.pm
 in a typical scripting environment.
 
-%description -l pl
-CGI::Compress::Gzip rozszerza klasÍ CGI o automatyczne wykrywanie czy
-przegl±darka chce wyj∂cie w postaci skompresowanej i je∂li tak oraz
-skrypt wybierze wyj∂cie HTML, aplikowanie kompresji gzip do dowolnych
-nag≥ÛwkÛw na standardowym wyj∂ciu. Ten modu≥ jest robiony z my∂l±, by
-by≥ zamiennikiem CGI.pm w typowym ∂rodowisku skryptowym.
+%description -l pl.UTF-8
+CGI::Compress::Gzip rozszerza klasƒô CGI o automatyczne wykrywanie czy
+przeglƒÖdarka chce wyj≈õcie w postaci skompresowanej i je≈õli tak oraz
+skrypt wybierze wyj≈õcie HTML, aplikowanie kompresji gzip do dowolnych
+nag≈Ç√≥wk√≥w na standardowym wyj≈õciu. Ten modu≈Ç jest robiony z my≈õlƒÖ, by
+by≈Ç zamiennikiem CGI.pm w typowym ≈õrodowisku skryptowym.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
