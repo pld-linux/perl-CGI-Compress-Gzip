@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	Compress-Gzip
 Summary:	CGI::Compress::Gzip - CGI with automatically compressed output
-Summary(pl.UTF-8):   CGI::Compress::Gzip - CGI z automatycznie kompresowanym wyjściem
+Summary(pl.UTF-8):	CGI::Compress::Gzip - CGI z automatycznie kompresowanym wyjściem
 Name:		perl-CGI-Compress-Gzip
 Version:	0.21
 Release:	1
