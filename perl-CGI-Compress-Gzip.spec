@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	CGI
 %define		pnam	Compress-Gzip
+%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Compress::Gzip - CGI with automatically compressed output
 Summary(pl.UTF-8):	CGI::Compress::Gzip - CGI z automatycznie kompresowanym wyjściem
 Name:		perl-CGI-Compress-Gzip
@@ -14,6 +14,7 @@ License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	f82809411065c9636b81f8e021c99723
+URL:		http://search.cpan.org/dist/CGI-Compress-Gzip/
 BuildRequires:	perl-Compress-Zlib
 BuildRequires:	perl-IO-Zlib
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -48,7 +49,6 @@ był zamiennikiem CGI.pm w typowym środowisku skryptowym.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
